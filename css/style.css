@@ -1,10 +1,11 @@
+/* Reset CSS */
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
-/* ------------------- NAV ------------------- */
+/* NAV */
 nav {
     background-color: black;
     padding: 20px;
@@ -55,7 +56,7 @@ a:hover {
     height: 100vh;
 }
 
-/* ------------------- LOGIN FORM ------------------- */
+/* LOGIN FORM */
 form {
     background-color: gainsboro;
     border-radius: 4px;
@@ -78,29 +79,20 @@ input[type="radio"] {
     width: auto;
 }
 
-/* ------------------- SEÇÕES ------------------- */
+/* SECTION 1 */
 #id-secao1 {
-    background-color: rgb(116, 107, 107);
+    background-color: greenyellow;
 }
-#id-secao2 {
-    background-color: rgb(116, 107, 107);
+#basquete{
+    height: 250px;
+    margin-left: 50px;
 }
-#id-secao3 {
-    background-color: rgb(116, 107, 107);
+#natação{
+    height: 180px;
+    margin-left: 50px;
 }
-#id-secao4 {
-    background-color: rgb(116, 107, 107);
-}
-/* ------------------- TEXTO DAS SEÇÕES -------------------  */
-#text_secao1 {
-    font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
-}
-#text_secao2 {
-    font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
-}
-/* ------------------- FOOTER ------------------- */
+
+/* FOOTER */
 footer {
     background-color: black;
     color: aliceblue;
