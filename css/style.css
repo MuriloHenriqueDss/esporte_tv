@@ -88,7 +88,11 @@ input[type="radio"] {
     margin-left: 50px;
 }
 #natação{
+<<<<<<< HEAD
+    height: 180px;
+=======
     height: 181px;
+>>>>>>> refs/remotes/origin/master
     margin-left: 50px;
 }
 
