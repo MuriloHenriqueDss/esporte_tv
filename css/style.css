@@ -1,0 +1,96 @@
+/* Reset CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* NAV */
+nav {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    height: 100px;
+    margin-left: 70px;
+}
+
+nav .nav-links ul {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav .nav-links ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav .nav-login {
+    background-color: black;
+}
+
+nav .nav-login a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+/* SECTIONS */
+.secao {
+    border: solid 3px;
+    border-color: gray;
+    height: 100vh;
+}
+
+/* LOGIN FORM */
+form {
+    background-color: gainsboro;
+    border-radius: 4px;
+    width: 320px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+input {
+    width: 90%;
+    padding: 6px;
+    margin-bottom: 8px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+/* SECTION 1 */
+#id-secao1 {
+    background-color: greenyellow;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
